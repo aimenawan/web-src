@@ -1,3 +1,12 @@
 #navbarNav {
     justify-content: flex-end;
 }
+.section-row {
+    min-height: 600px;
+}
+.section-even {
+    background-color: gray;
+}
+.section-odd {
+    background-color: white;
+}
