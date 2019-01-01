@@ -1,11 +1,10 @@
 <div class="container-fluid">
-    {% if index|divisibleby:2 %}
+    {% if index is divisibleby 2 %}
     <div class="row section-row section-even">
     {% else %}
     <div class="row section-row section-odd">
     {% endif %}
-
-        {% block section-content %}
+        {% block section_content %}
         {% endblock %}
     </div>
 </div>
