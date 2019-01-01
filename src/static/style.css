@@ -14,18 +14,7 @@
     justify-content: flex-end;
 }
 .section-row {
-    height: 600px;
-    padding-left: 15%;
-    padding-right: 15%;
-    overflow: hidden;
-}
-.section-narrow {
-    height: 300px;
-}
-.section-even {
-    background-color: gray;
-}
-.section-odd {
+    padding: 5% 15%;
     background-color: white;
 }
 .circle-icon {
@@ -41,8 +30,13 @@
 .bg-teaching {
     background-image: url("teaching-head.png");
 }
-.bg-head {
+.bg-publications {
+    background-image: url("publications-head.png");
+}
+.head {
+    height: 400px;
     background-size: cover;
+    background-position: center;
     color: white;
 }
 .bg-gray {
@@ -51,7 +45,7 @@
 .layer {
     position: absolute;
     width: 100%;
-    height: 600px;
+    height: 400px;
     opacity: 0.5;
 }
 .front {
@@ -59,8 +53,14 @@
 }
 footer {
     background-color: #EBEDF3;
+    height: 300px;
 }
 .research-icon {
     background-image: url("research.svg");
     background-size: contain;
+}
+.project-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

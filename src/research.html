@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block body %}
+
+
+<div class="d-flex justify-content-center align-items-center flex-column section-row head bg-publications">
+</div>
+
+<div class="d-flex justify-content-center flex-column section-row">
+    <div class="d-flex align-items-center">
+        <div class="d-flex justify-content-center align-items-center circle-icon bg-main">
+            <img src="static/publications.svg" style="margin-left: 8px;">
+        </div>
+        <h4>Research</h4>
+    </div>
+    <br><br>
+    {% for proj in projects %}
+    <h5 class="p-2 {% if loop.index is divisibleby 2 %} text-right {% endif %}">{{proj.title}}</h5>
+
+    <div class="d-flex flex-row">
+        <div class="p-2 col-4 {% if loop.index is divisibleby 2 %} order-1 {% endif %}">
+            <img class="rounded project-cover" src="static/{{proj.img}}">
+        </div>
+        <div class="p-2 col {% if loop.index is divisibleby 2 %} order-0 {% endif %}">
+            <p class="m-0 {% if loop.index is divisibleby 2 %} text-right {% endif %}">{{proj.desc}}</p>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    {% endfor %}
+</div>
+{% endblock %}
