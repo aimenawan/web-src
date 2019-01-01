@@ -21,7 +21,7 @@ class Loader(BaseLoader):
 
 class SourceBundle(object):
     def __init__(
-        self, static_dir="static", src_dir="src", templates=None, dist_dir="dist"
+        self, static_dir="static", src_dir="src", templates=None, dist_dir="docs"
     ):
         if templates is None:
             self.templates = ["index.html"]
