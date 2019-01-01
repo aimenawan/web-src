@@ -35,8 +35,13 @@
     margin-right: 20px;
     border-radius: 50%;
 }
+.bg-home {
+    background-image: url("home-head.png");
+}
+.bg-teaching {
+    background-image: url("teaching-head.png");
+}
 .bg-head {
-    background-image: url("bg-head.png");
     background-size: cover;
     color: white;
 }

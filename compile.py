@@ -64,11 +64,13 @@ class SourceBundle(object):
 if __name__ == "__main__":
     nav_entries = {
         "index.html": "Home",
-        "item1.html": "Research",
-        "item2.html": "Teaching",
-        "item3.html": "Publications",
-        "item3.html": "Contact"
+        "research.html": "Research",
+        "teaching.html": "Teaching",
+        "publications.html": "Publications",
+        "contact.html": "Contact"
     }
-    active_page = "Home"
     sb = SourceBundle(templates=["index.html"])
     sb.build(nav_entries=nav_entries, active_page="Home")
+
+    sb = SourceBundle(templates=["teaching.html"])
+    sb.build(nav_entries=nav_entries, active_page="Teaching")
