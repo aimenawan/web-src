@@ -7,9 +7,12 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
     <script type="text/javascript" src="static/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="static/grayscale.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="static/style.css">
 </head>
 
@@ -17,7 +20,7 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-main">
 
     
-    <a class="navbar-brand" href="#">Leanne Bowler</a>
+    <a class="navbar-brand font-logo" href="#">Leanne Bowler</a>
     
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -72,69 +75,127 @@
 
 <div class="d-flex justify-content-center align-items-center flex-column head bg-home">
     <div class="layer bg-gray"></div>
-    <div class="p-2 front">
-        <h1>LEANNE BOWLER</h1>
+    <div class="p-2 front font-logo">
+        <h1>Leanne Bowler</h1>
     </div>
-    <div class="p-2 front">
-        <h4>Associate Professor, Pratt Institute</h4>
+    <div class="front">
+        <h5><b>Associate Professor, Pratt Institute</b></h5>
     </div>
 </div>
 
 
-<div class="d-flex justify-content-center align-items-center flex-row section-row">
+<div class="d-flex equal justify-content-center align-items-center flex-rotating section-row">
     <div class="p-4 col-4">
         <img class="img-fluid rounded" src="static/Bowler_Leanne.png">
     </div>
     <div class="p-2 d-flex flex-column">
         <strong>About me</strong>
-        <p>I'm an Associate Professor and Director of the Sara Fine Institute for Interpersonal Behavior and
-            Technology, at the School of Information Sciences, University of Pittsburgh, where I lead the
-            specialization in children and youth. My research and teaching interests lie in the area of youth
-            interaction with information, data, and technology. I received my PhD from McGill University, in Montreal,
-            Canada. My dissertation explored the landscape of adolescent metacognitive knowledge during the information
-            search process. I have a Master of Library Science and a Master of Education (Educational Psychology) and
-            have worked as an information professional in a variety of settings including public and academic
-            libraries, and patient resource centers in hospitals.</p>
-        <div class="d-flex flex-row">
-            <div class="d-flex flex-fill align-items-center">
-                <div class="d-flex justify-content-center align-items-center circle-icon bg-main">
-                    <img src="static/research.svg">
+        <p class="text-small">Hello! I am an Associate Professor at the School of Information, Pratt Institute, in New York City. My
+            research and teaching focuses on young peoples' interactions with information and data, their technology
+            practices, STEM learning, and how family, teachers, and out-of-school organizations such as libraries and
+            museums can support young people's competencies in a socio-technical world.
+            <br>
+            <br>
+            Pratt Institute is focused on preparing our students for the new librarianship of the 21st century. Our
+            school has a long history of teaching and research in the area of library services for children and teens,
+            beginning with the first course taught in children's librarianship in 1900! But contemporary service models
+            for children's and youth libraries are changing, reflecting a shift toward new roles in facilitating and
+            mentoring young people in their interactions with information, data, and technology. In my teaching and
+            research, I'm exploring ways to support young people's critical information practices and the development
+            of digital literacy programs at the library, with the aim of creating of positive technologies and library
+            services that afford meaningful experiences for children and teens.</p>
+        <div class="d-flex flex-rotating">
+            <a href="research.html" class="flex-fill" style="display:block;">
+                <div class="pill d-flex align-items-center">
+                    <div class="d-flex justify-content-center align-items-center circle-icon bg-main">
+                        <img src="static/research.svg">
+                    </div>
+                    <strong>Research</strong>
                 </div>
-                <strong>Research</strong>
-            </div>
-            <div class="d-flex flex-fill align-items-center">
-                <div class="d-flex justify-content-center align-items-center circle-icon bg-main">
-                    <img src="static/teaching.svg" style="margin-bottom: 2px;">
+            </a>
+            <a href="teaching.html" class="flex-fill" style="display:block;">
+                <div class="pill d-flex flex-fill align-items-center">
+                    <div class="d-flex justify-content-center align-items-center circle-icon bg-main">
+                        <img src="static/teaching.svg" style="margin-bottom: 2px;">
+                    </div>
+                    <strong>Teaching</strong>
                 </div>
-                <strong>Teaching</strong>
-            </div>
-            <div class="d-flex flex-fill align-items-center">
-                <div class="d-flex justify-content-center align-items-center circle-icon bg-main">
-                    <img src="static/publications.svg" style="margin-left: 6px;">
+            </a>
+            <a href="publications.html" class="flex-fill" style="display:block;">
+                <div class="pill d-flex flex-fill align-items-center">
+                    <div class="d-flex justify-content-center align-items-center circle-icon bg-main">
+                        <img src="static/publications.svg" style="margin-left: 6px;">
+                    </div>
+                    <strong>Publications</strong>
                 </div>
-                <strong>Publications</strong>
-            </div>
+            </a>
         </div>
     </div>
 </div>
-    
-    <footer id="contact" class="d-flex justify-content-center align-items-center flex-row">
-    <div class="col-2 d-flex justify-content-end">
-        <img class="img-fluid rounded" src="static/card.svg">
+
+    <!-- Contact Section -->
+<section id="contact" class="contact-section bg-navy">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <img id="pratt-logo" src="static/pratt.jpg">
+                        <hr class="my-4">
+                        <div class="small text-black-50">144 W 14th St, New York, NY 10011</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-envelope text-main mb-2"></i>
+                        <h4 class="text-uppercase m-0">Email</h4>
+                        <hr class="my-4">
+                        <div class="small text-black-50">
+                            <a href="#">lbowler[at]pratt.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt text-main mb-2"></i>
+                        <h4 class="text-uppercase m-0">Phone</h4>
+                        <hr class="my-4">
+                        <div class="small text-black-50">
+                            (212) 647-7682 p <br />
+                            (212) 367-2492 f
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="social d-flex justify-content-center">
+            <a href="#" class="mx-2">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="mx-2">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="mx-2">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
     </div>
-    <div class="col-4">
-        <h4>Contact<br>Information</h4>
-    </div>
-    <div class="col-6">
-        <p>
-            <strong>Pratt Institute</strong> School of Information
-        </p>
-        <p>
-            lbowler[at]pratt.edu <br />
-            (212) 647-7682 p <br />
-            (212) 367-2492 f <br />
-            Manhattan Campus, Manhattan 6 <br />
-        </p>
+</section>
+
+<!-- Footer -->
+<footer class="bg-navy small text-center text-white-50">
+    <div class="container">
+        Copyright &copy; Leanne Bowler 2018
     </div>
 </footer>
 </body>
