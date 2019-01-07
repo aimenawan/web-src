@@ -146,31 +146,31 @@ if __name__ == "__main__":
     projects = [
         {
             "title": "Exploring Data Worlds at the Public Library: A Youth Data Literacy Project",
-            "img": "teaching-head.png",
+            "img": "project1.png",
             "desc": "The Exploring Data Worlds at the Public Library research project is supported by a grant from the Institute for Museum and Library Services. Amelia Acker (UT Austin) and I have been exploring youth data literacy in the context of youth services in maker spaces at the public library. The goals of the Exploring Data Worlds project are threefold: 1) to generate social science observations about young peoples' interactions with data, including their self-awareness as data subjects, 2) to discover the unique data literacy needs of digital youth in terms of their critical and civic participation in a data driven society, and 3) develop strategies for training youth librarians in order to provide them with the skills to empower young people. See recent publications for details about youth data literacy, Chi, Y., Jeng, W., Acker, A., & Bowler, L., 2018; Acker, A. & Bowler, L., 2018; Bowler, L., Acker, A., Jeng, W. & Chi, Y., 2017; Acker, A. & Bowler, L., 2017.",
             "link": "https://www.youthdataliteracy.info/",
         },
         {
             "title": '"Mindful Making": Critical computing and informal STEM learning in Maker Spaces',
-            "img": "teaching-head.png",
+            "img": "project2.png",
             "desc": "This research program, originally supported through grants from the Sprout Foundation and the Association for Library and Information Science, investigates critical making, self-awareness, and the practice of self-critique in library-based maker spaces. See Bowler, 2016; Bowler, L. & Champagne, R., 2016, for more details.",
             "link": "http://www.mindfulmakerquestions.info/",
         },
         {
             "title": "Remake Making",
-            "img": "teaching-head.png",
+            "img": "project3.png",
             "desc": "A collaboration with principal investigator Tom Akiva (University of Pittsburgh), Kevin Crowley (University of Pittsburgh), and Peter Wardrip (University Wisconsin-Madison). The project is supported by a grant from the National Science Foundation. The study explores professional development and community-based, facilitation models in support of informal STEM learning at the public library.",
             "link": "https://www.simpleinteractions.org/ ",
         },
         {
             "title": '"Think Before You Click!" Designing Social Media Spaces that Afford Moments of Reflection (Study into Cyberbullying)',
-            "img": "teaching-head.png",
+            "img": "project4.png",
             "desc": "This project looked at mean and cruel online behavior through the lens of design, with the goal of developing positive technologies for youth. Visual narrative inquiry - a storytelling method - was used in the early stages of this project to explore the relationship between reflection (the metacognitive piece), values, and interaction design. Seven emergent design themes were evident in the participants' design recommendations and these design themes were then associated with a values-framework (Cheng & Fleishman, 2010). For more information, see Bowler, Knobel & Mattern, 2015; Fan, M., Liyue, Y. & Bowler, L., 2016.",
             "link": "",
         },
         {
             "title": "Social Q&A and Teen Health",
-            "img": "teaching-head.png",
+            "img": "project5.png",
             "desc": "This project began with the basic question, How do teens use social media to answer their health questions? Supported through a grant from OCLC, my colleagues Daqing He (University of Pittsburgh), Jung Sun Oh (University of Pittsburgh) and I looked at a health topic that is relevant to teens - eating disorders - in order to model the interactions between questioners and askers in the social Q&A space of Yahoo! Answers, with the aim of contributing to the greater understanding of youth information behavior, health information literacy, and the role of social Q&A and affect in the provision of health information to young people. See Bowler et al, 2012, 2013; Oh et al, 2013, for more information.",
             "link": "",
         },

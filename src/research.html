@@ -16,28 +16,27 @@
     <p>
         The goal of my research is to develop information theory, professional practices, and information and
         communications technologies (ICT) that support the well-being of youth in information environments. My research
-        is transdisciplinary – traversing the fields of information science, the learning sciences, media and
+        is transdisciplinary - traversing the fields of information science, the learning sciences, media and
         communications theory, and science and technology studies (STS). A major theme in my research relates to
-        intrapersonal knowledge (self-awareness) and the socio-emotional aspects of young people’s interactions with
-        ICT or in libraries. Explorations into young peoples’ digital and data rights, youth empowerment, and community
+        intrapersonal knowledge (self-awareness) and the socio-emotional aspects of young people's interactions with
+        ICT or in libraries. Explorations into young peoples' digital and data rights, youth empowerment, and community
         engagement in information environments also underlie much of my work.
     </p>
     <br>
     {% for proj in projects %}
-    <h5 class="p-2 {% if loop.index is divisibleby 2 %} text-right {% endif %}">{{proj.title}}</h5>
+    <div class="mb-4 shadow">
+        <h5 class="p-4 {% if loop.index is divisibleby 2 %} text-right {% endif %}">{{proj.title}}</h5>
 
-    <div class="d-flex flex-row">
-        <div class="p-2 col-4 {% if loop.index is divisibleby 2 %} order-1 {% endif %}">
-            <img class="rounded project-cover" src="static/{{proj.img}}">
-        </div>
-        <div class="p-2 col {% if loop.index is divisibleby 2 %} order-0 {% endif %}">
-            <p class="m-0 {% if loop.index is divisibleby 2 %} text-right {% endif %}">{{proj.desc}}</p>
+        <div class="d-flex flex-row project">
 
+            <div class="col-6 portrait {% if loop.index is divisibleby 2 %} order-1 {% endif %}" style="background-image: url('static/{{proj.img}}');">
+            </div>
+            <div class="p-5 col text-center my-auto {% if loop.index is divisibleby 2 %} order-0 {% endif %}">
+                {{proj.desc}}
+
+            </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
     {% endfor %}
 </div>
 {% endblock %}

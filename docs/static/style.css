@@ -115,11 +115,6 @@ body {
     background-size: contain;
 }
 
-.project-cover {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 a.flex-fill {
     color: black;
@@ -165,4 +160,17 @@ a.flex-fill {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.portrait {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project {
+    min-height: 20rem;
+}
+
+.shadow {
+    box-shadow: 0 0 10px 0px #ddd;
 }
