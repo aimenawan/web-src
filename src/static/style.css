@@ -30,7 +30,7 @@ body {
 
 .nav-item.active {
     background-color: var(--color-highlight);
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -137,6 +137,11 @@ a.flex-fill {
     .flex-rotating .pill {
         margin-bottom: 1vw;
     }
+    .bowler_portrait {
+        height: 15rem;
+        flex: none;
+        max-width: 100%;
+    }
 }
 
 .bg-navy {
@@ -153,4 +158,11 @@ a.flex-fill {
 
 .text-small {
     font-size: 0.8rem;
+}
+
+.bowler_portrait {
+    background-image: url("Bowler_Leanne.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
