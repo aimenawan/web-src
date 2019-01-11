@@ -84,7 +84,7 @@ body {
 }
 
 .head {
-    height: 44vh;
+    height: 24vw;
     background-size: cover;
     background-position: center;
     color: white;
@@ -97,7 +97,7 @@ body {
 .layer {
     position: absolute;
     width: 100%;
-    height: 44vh;
+    height: 24vw;
     opacity: 0.5;
 }
 
