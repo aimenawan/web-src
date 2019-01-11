@@ -72,15 +72,15 @@ body {
 }
 
 .bg-home {
-    background-image: url("home-head.png");
+    background-image: url("img/home-head.png");
 }
 
 .bg-teaching {
-    background-image: url("teaching-head.png");
+    background-image: url("img/teaching-head.png");
 }
 
 .bg-publications {
-    background-image: url("publications-head.png");
+    background-image: url("img/publications-head.png");
 }
 
 .head {
@@ -156,7 +156,7 @@ a.flex-fill {
 }
 
 .bowler_portrait {
-    background-image: url("Bowler_Leanne.png");
+    background-image: url("img/Bowler_Leanne.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,5 +172,5 @@ a.flex-fill {
 }
 
 .shadow {
-    box-shadow: 0 0 10px 0px #ddd;
+    box-shadow: 0 0 10px 0px #ddd !important;
 }
