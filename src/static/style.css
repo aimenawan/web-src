@@ -79,6 +79,10 @@ body {
     background-image: url("img/teaching-head.png");
 }
 
+.bg-research {
+    background-image: url("img/research-head.png");
+}
+
 .bg-publications {
     background-image: url("img/publications-head.png");
 }
@@ -114,7 +118,6 @@ body {
     background-image: url("research.svg");
     background-size: contain;
 }
-
 
 a.flex-fill {
     color: black;
@@ -161,14 +164,12 @@ a.flex-fill {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .portrait {
+    min-height: 20rem;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-.project {
-    min-height: 20rem;
 }
 
 .shadow {

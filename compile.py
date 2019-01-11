@@ -158,7 +158,7 @@ if __name__ == "__main__":
         },
         {
             "title": "Remake Making",
-            "img": "img/project3.png",
+            "img": "",
             "desc": "A collaboration with principal investigator Tom Akiva (University of Pittsburgh), Kevin Crowley (University of Pittsburgh), and Peter Wardrip (University Wisconsin-Madison). The project is supported by a grant from the National Science Foundation. The study explores professional development and community-based, facilitation models in support of informal STEM learning at the public library.",
             "link": "https://www.simpleinteractions.org/ ",
         },
@@ -170,7 +170,7 @@ if __name__ == "__main__":
         },
         {
             "title": "Social Q&A and Teen Health",
-            "img": "img/project5.png",
+            "img": "",
             "desc": "This project began with the basic question, How do teens use social media to answer their health questions? Supported through a grant from OCLC, my colleagues Daqing He (University of Pittsburgh), Jung Sun Oh (University of Pittsburgh) and I looked at a health topic that is relevant to teens - eating disorders - in order to model the interactions between questioners and askers in the social Q&A space of Yahoo! Answers, with the aim of contributing to the greater understanding of youth information behavior, health information literacy, and the role of social Q&A and affect in the provision of health information to young people. See Bowler et al, 2012, 2013; Oh et al, 2013, for more information.",
             "link": "",
         },
