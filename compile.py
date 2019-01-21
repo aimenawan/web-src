@@ -73,11 +73,24 @@ if __name__ == "__main__":
     sb.build(nav_entries=nav_entries, active_page="Home")
 
     courses = [
-        "18/FA-INFO-601-04 Foundations of Information",
-        "19/SP-INFO-601-02 Foundations of Information",
-        "18/FA-INFO-673-01 Literacy & Instruction",
-        "19/SP-INFO-697-05 Special Topics",
+        {
+            "name": "INFO 601 - Foundations of Information",
+            "desc": "This foundational course focuses on the intersection of people, information, and technology and the theoretical and conceptual foundations of the information field. Students will be introduced to ideas and concepts that will inform future specializations in their course of study and provide them with concrete strategies for ongoing professional growth and development in their area of interest.",
+        },
+        {
+            "name": "INFO 673 - Literacy and Instruction",
+            "desc": "This course focuses on teaching and learning in library settings. Examines literacy theories, including critical literacy, digital literacy, media literacy, information literacy and transliteracy. Explores the implementation of literacy-related programs in public libraries, academic libraries, archives, museums and other cultural institutions with a focus on assessing patron needs and using culturally relevant pedagogy.",
+        },
+        {
+            "name": "INFO 697 - Special Topics: Children & Teens as Users of Technology",
+            "desc": "This course investigates digital technology in young peoples' lives.  The goals for this course are for students to be able to discuss in a critical manner the key issues and current research surrounding technology in the lives of children and youth (birth to 18 years) and to apply their learning to the design of digital experiences for young people.",
+        },
+        {
+            "name": "INFO 697 - Special Topics: Programming, Services, and Resources for Early Childhood",
+            "desc": "The course explores the specialized skills and knowledge needed to design and develop library programs, services, and resources for infants and young children (0-8 years). The course will follow the literacy continuum, from language development through to independent reading and writing, with a special focus on the first three years of life, early literacy, and the role of family and community. The course will interest students who want to work with young people in different contexts and need specialized knowledge of early childhood, the social dynamics of families, and the early education environment.",
+        },
     ]
+
     sb = SourceBundle(templates=["teaching.html"])
     sb.build(nav_entries=nav_entries, active_page="Teaching", courses=courses)
 
@@ -95,15 +108,15 @@ if __name__ == "__main__":
         "Bowler, L., Julien, H. & Haddon, L. (2018). Exploring youth information-seeking behaviour and mobile technologies through a secondary analysis of qualitative data. Journal of Librarianship and Information Science, Vol. 50(3) 322-331. 	",
         "Chi, Y., Jeng, W., Acker, A., & Bowler, L. (2018, March). Affective, Behavioral, and Cognitive Aspects of Teen Perspectives on Personal Data in Social Media: A Model of Youth Data Literacy. In International Conference on Information (pp. 442-452). Springer, Cham.	",
         "Acker, A. & Bowler, L. (2018).  Youth Data Literacy: Teen Perspectives on Data Created with Social Media, and Mobile Device Ownership. Hawaii International Conference on System Sciences 2018 (HICCS). January 3-6, 2018. ",
-        "Bowler, L., Acker, A., Jeng, W. & Chi, Y. (2017). \"It lives all around us\": Aspects of Data Literacy in Teens' Lives.  80th ASIS&T Annual Meeting. Diversity of Engagement: Connecting People and Information in the Physical and Virtual Worlds. October 27-November 1, 2017. Washington, D.C. ",
+        'Bowler, L., Acker, A., Jeng, W. & Chi, Y. (2017). "It lives all around us": Aspects of Data Literacy in Teens\' Lives.  80th ASIS&T Annual Meeting. Diversity of Engagement: Connecting People and Information in the Physical and Virtual Worlds. October 27-November 1, 2017. Washington, D.C. ',
         "Acker, A. & Bowler, L. (2017). What is Your Data Silhouette? Raising Teen Awareness of their Data Traces in Social Media. Social Media and Society International Conference, July 28-30, 2017. ",
         "Bowler, L. & Champagne, R. (2016). Mindful making: Question prompts to help guide young peoples' critical technical practices in DIY/maker spaces. Library and Information Science Research, 38, 117-124.  ",
         "Fan, M., Liyue, Y. & Bowler, L. (2016). Feelbook: A Social Media App For Teens Designed To Foster Positive Online Behavior And Prevent Cyberbullying. CHI 2016, May 7-12, 2015, San Jose, CA. ",
         "Bowler, L., Monahan, J., Jeng, W., Oh, J. & He, D. (2015). The quality and helpfulness of answers to eating disorder questions in Yahoo! Answers: Teens speak out. 78th ASIS&T Annual Meeting, Information Science with Impact: Research in and for the Community. November 6-10, 2015. St. Louis, MO.",
         "Bowler, L., Knobel, C. & Mattern, E. (2015). From cyberbullying to well-being: A narrative-based participatory approach to values-oriented design themes for social media. Journal of the Association for Information Science and Technology, 66(6), 1274-1293. ",
-        "Bowler, L. (2014). Creativity through \"Maker\" experiences and design thinking in the education of librarians. Knowledge Quest: Journal of the American Association of School Librarians. 42(5), May-June, pp. 59-61.",
+        'Bowler, L. (2014). Creativity through "Maker" experiences and design thinking in the education of librarians. Knowledge Quest: Journal of the American Association of School Librarians. 42(5), May-June, pp. 59-61.',
         "Bowler, L., Mattern, E., & Knobel, C. (2014). Developing design interventions for cyberbullying: A narrative-based participatory approach. iConference 2014: Breaking Down Walls - Culture, Context, Computing, March 4-7, 2014. Berlin, Germany.",
-        "Bowler, L., Mattern, E. Jeng, W., Oh, J. & He, D. (2013). \"I know what you are going through\": Answers to informational questions about eating disorders in Yahoo! Answers: A qualitative study. 2013 ASIS&T Annual Meeting, Rethinking Information Boundaries, November 1-6, 2013. Montreal, QC, Canada.",
+        'Bowler, L., Mattern, E. Jeng, W., Oh, J. & He, D. (2013). "I know what you are going through": Answers to informational questions about eating disorders in Yahoo! Answers: A qualitative study. 2013 ASIS&T Annual Meeting, Rethinking Information Boundaries, November 1-6, 2013. Montreal, QC, Canada.',
         "Oh, J.S., Jeng, W., He, D., Mattern, E. & Bowler, L. (2013). Linguistic characteristics of eating disorder questions on Yahoo! Answers - content, style, and emotion. 2013 ASIS&T Annual Meeting, Rethinking Information Boundaries, November 1-6, 2013. Montreal, QC, Canada.",
         "Bowler, L. Oh, J.S., He, D., Mattern, E., & Jeing, W. (2012). Eating disorder questions in Yahoo! Answers: Information, conversation, or reflection? 2012 ASIS&T Annual Meeting, Information, Interaction, Innovation: Celebrating the Past, Constructing the Present and Creating the Future, October 28-31, 2012. Baltimore, MD.",
         "Bowler, L. & Mattern, E. (2012). Visual metaphors for modeling metacognitive strategies that support memory during the information search process. IIiX Fourth Information in Interaction in Context Symposium. August 21-24, 2012. Nijmegan, The Netherlands.",
@@ -124,7 +137,7 @@ if __name__ == "__main__":
         "Large, A., Beheshti, J., Nesset, V., & Bowler, L. (2007). Children's representations of taxonomic categories for application in a web portal: An exploratory study. In C. Arsenault and K. Dalkir (Eds.), Information Sharing in a Fragmented World: Crossing Boundaries: Proceedings of the Canadian Association for Information Science (CAIS). May 10-12, 2007. Montreal, QC, Canada.",
         "Large, A., Bowler, L., Beheshti, J. & Nesset, V. (2007). Bonded Design, intergenerational teams and the Zone of Proximal Development: Working with children as designers. McGill Journal of Education, 42(1): 61- 82.",
         "Large, A. and Beheshti, J. and Nesset, V. and Bowler, L. (2006). Web Portal Design Guidelines as Identified by Children through the Processes of Design and Evaluation. Proceedings of the American Society for Information Science and Technology (ASIST). November 3-8, 2006. Austin, TX.",
-        "Large, A., Beheshti, J., Nesset, V. & Bowler, L. (2006). \"Bonded Design\": A novel approach to intergenerational information technology design. Library and Information Science Research. 28: 64 - 82.",
+        'Large, A., Beheshti, J., Nesset, V. & Bowler, L. (2006). "Bonded Design": A novel approach to intergenerational information technology design. Library and Information Science Research. 28: 64 - 82.',
         "Bowler, L. & Mittermeyer, D. (2006). Être bibliothécaire au XXIième siėcle: comment donner un sens à l'information. Documentation et bibliothèques.52(3). pp. 197-199. ",
         "Bowler, L., Large, A., Beheshti, J., & Nesset, V. (2005). Children and adults working together in the Zone of Proximal Development: A concept for user-centered design. In L. Vaughn, (Ed.), Data, Information, and Knowledge in a Networked World. Proceedings of the Canadian Society for Information Science and Technology. June 2-4, 2005. London, ON, Canada.",
         "Large, A., Beheshti, J., Nesset, V., & Bowler, L. (2005). Web portal characteristics: Children as designers and evaluators. In L. Vaughn, (Ed.), Data, Information, and Knowledge in a Networked World: Proceedings of the Canadian Society for Information Science and Technology. June 2-4, 2005, London, ON, Canada.",
@@ -178,4 +191,3 @@ if __name__ == "__main__":
 
     sb = SourceBundle(templates=["research.html"])
     sb.build(nav_entries=nav_entries, active_page="Research", projects=projects)
-

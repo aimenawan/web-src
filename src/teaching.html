@@ -13,9 +13,21 @@
         </div>
         <h4>Teaching</h4>
     </div>
-    <br><br>
+    <br>
+    <p class="big-size-font">
+        My teaching is guided by a commitment to provide students with an enriched, student-centered learning
+        environment. My goal is to design learning environments that are adaptive to the personal interests and
+        individual life situations of students while still maintaining a clear sight on a set of learning objectives
+        and professional outcomes for the student. In recognition of my teaching success, I was presented with the 2012
+        ALISE-Pratt-Severn Faculty Innovation Award, an award for innovation in teaching in Library and Information
+        Science programs.
+    </p>
+    <br>
+
     {% for course in courses %}
-    <h5 class="p-2">{{ course }}</h5>
+    <h5>{{ course.name }}</h5>
+    <p>{{course.desc}}</p>
+    <br>
     {% endfor %}
 </div>
 {% endblock %}
