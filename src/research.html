@@ -24,21 +24,20 @@
     </p>
     <br>
     {% for proj in projects %}
-    <div class="mb-4 shadow">
-        {% if proj.link %}
-        <a href="{{proj.link}}"><h5 class="pt-4 text-center font-weight-bold">{{proj.title}}</h5></a>
-        {% else %}
+    <div class="mb-4 shadow project">
         <h5 class="pt-4 text-center font-weight-bold">{{proj.title}}</h5>
-        {% endif %}
-        
+
         <div class="d-flex flex-row">
             {% if proj.img %}
             <div class="col-6 portrait {% if loop.index is divisibleby 2 %} order-1 {% endif %}" style="background-image: url('static/{{proj.img}}');">
             </div>
             {% endif %}
-            <div class="p-4 col text-center my-auto {% if loop.index is divisibleby 2 %} order-0 {% endif %}">
-                {{proj.desc}}
+            <div class="p-4 col text-justify my-auto {% if loop.index is divisibleby 2 %} order-0 {% endif %}">
+                <p>{{proj.desc}}</p>
 
+                {% if proj.link %}
+                <a class="mb-1" href="{{proj.link}}">View the project in detail</a>
+                {% endif %}
             </div>
         </div>
     </div>

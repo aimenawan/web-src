@@ -157,13 +157,13 @@ if __name__ == "__main__":
             "link": "http://www.mindfulmakerquestions.info/",
         },
         {
-            "title": "Remake Making",
+            "title": "Remake Making: Understanding Adoption and Adaptation of Facilitated Making in Libraries",
             "img": "",
             "desc": "A collaboration with principal investigator Tom Akiva (University of Pittsburgh), Kevin Crowley (University of Pittsburgh), and Peter Wardrip (University Wisconsin-Madison). The project is supported by a grant from the National Science Foundation. The study explores professional development and community-based, facilitation models in support of informal STEM learning at the public library.",
             "link": "https://www.simpleinteractions.org/ ",
         },
         {
-            "title": '"Think Before You Click!" Designing Social Media Spaces that Afford Moments of Reflection (Study into Cyberbullying)',
+            "title": '"Think Before You Click!" Designing Social Media Spaces that Afford Moments of Reflection<br>(Study into Cyberbullying)',
             "img": "img/project4.png",
             "desc": "This project looked at mean and cruel online behavior through the lens of design, with the goal of developing positive technologies for youth. Visual narrative inquiry - a storytelling method - was used in the early stages of this project to explore the relationship between reflection (the metacognitive piece), values, and interaction design. Seven emergent design themes were evident in the participants' design recommendations and these design themes were then associated with a values-framework (Cheng & Fleishman, 2010). For more information, see Bowler, Knobel & Mattern, 2015; Fan, M., Liyue, Y. & Bowler, L., 2016.",
             "link": "",

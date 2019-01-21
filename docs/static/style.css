@@ -72,7 +72,8 @@ body {
 }
 
 .bg-home {
-    background-image: url("img/home-head.png");
+    background-color: #566270;
+    /* background-image: url("img/home-head.png"); */
 }
 
 .bg-teaching {
@@ -159,6 +160,10 @@ a.flex-fill {
 }
 
 .bowler_portrait {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    height: 300px;
+    width: 300px;
     background-image: url("img/Bowler_Leanne.png");
     background-position: center;
     background-size: cover;
@@ -174,4 +179,16 @@ a.flex-fill {
 
 .shadow {
     box-shadow: 0 0 10px 0px #ddd !important;
+}
+
+.big-size-font {
+    font-size: 1.2rem;
+}
+
+.project h5 {
+    color: #64a19d;
+}
+
+.project .text-justify {
+    text-align-last: center;
 }
