@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
     --color-main: #21C8CB;
     --color-highlight: #25B8Ba;
 }
