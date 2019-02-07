@@ -16,10 +16,10 @@
     <p>
         The goal of my research is to develop information theory, professional practices, and information and
         communications technologies (ICT) that support the well-being of youth in information environments. My research
-        is transdisciplinary - traversing the fields of information science, the learning sciences, media and
+        is transdisciplinary – traversing the fields of information science, the learning sciences, media and
         communications theory, and science and technology studies (STS). A major theme in my research relates to
-        intrapersonal knowledge (self-awareness) and the socio-emotional aspects of young people's interactions with
-        ICT or in libraries. Explorations into young peoples' digital and data rights, youth empowerment, and community
+        intrapersonal knowledge (self-awareness) and the socio-emotional aspects of young people’s interactions with ICT
+        or in libraries. Explorations into young peoples’ digital and data rights, youth empowerment, and community
         engagement in information environments also underlie much of my work.
     </p>
     <br>
@@ -29,15 +29,16 @@
 
         <div class="d-flex flex-row">
             {% if proj.img %}
-            <div class="col-6 portrait {% if loop.index is divisibleby 2 %} order-1 {% endif %}" style="background-image: url('static/{{proj.img}}');">
+            <div class="col-6 portrait {% if loop.index is divisibleby 2 %} order-1 {% endif %}"
+                style="background-image: url('static/{{proj.img}}');">
             </div>
             {% endif %}
-            <div class="p-4 col text-justify my-auto {% if loop.index is divisibleby 2 %} order-0 {% endif %}">
-                <p>{{proj.desc}}</p>
-
-                {% if proj.link %}
-                <a class="mb-1" href="{{proj.link}}">View the project in detail</a>
+            <div class="p-4 col my-auto {% if loop.index is divisibleby 2 %} order-0 {% endif %}">
+                <p class="text-justify">{{proj.desc}}</p>
+                {% if proj.footer %}
+                <p class="ml-5">{{proj.footer}}</p>
                 {% endif %}
+
             </div>
         </div>
     </div>

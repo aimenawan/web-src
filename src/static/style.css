@@ -77,9 +77,9 @@ body {
     /* background-image: url("img/home-head.png"); */
 }
 
-.bg-teaching {
+/* .bg-teaching {
     background-image: url("img/teaching-head.png");
-}
+} */
 
 .bg-research {
     background-image: url("img/research-head.png");
@@ -191,5 +191,5 @@ a.flex-fill {
 }
 
 .project .text-justify {
-    text-align-last: center;
+    text-align-last: left;
 }
