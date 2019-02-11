@@ -85,10 +85,6 @@ body {
     background-image: url("img/research-head.png");
 }
 
-.bg-publications {
-    background-image: url("img/publications-head.png");
-}
-
 .head {
     height: 24vw;
     background-size: cover;
@@ -173,7 +169,7 @@ a.flex-fill {
 
 .portrait {
     min-height: 20rem;
-    background-position: center;
+    background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
 }

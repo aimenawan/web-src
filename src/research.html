@@ -29,11 +29,11 @@
 
         <div class="d-flex flex-row">
             {% if proj.img %}
-            <div class="col-6 portrait {% if loop.index is divisibleby 2 %} order-1 {% endif %}"
+            <div class="mt-4 col-6 portrait {% if loop.index is divisibleby 2 %} order-1 {% endif %}"
                 style="background-image: url('static/{{proj.img}}');">
             </div>
             {% endif %}
-            <div class="p-4 col my-auto {% if loop.index is divisibleby 2 %} order-0 {% endif %}">
+            <div class="p-4 col {% if loop.index is divisibleby 2 %} order-0 {% endif %}">
                 <p class="text-justify">{{proj.desc}}</p>
                 {% if proj.footer %}
                 <p class="ml-5">{{proj.footer}}</p>
